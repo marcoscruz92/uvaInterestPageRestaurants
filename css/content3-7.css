@@ -1,0 +1,63 @@
+/*	CONTENT BLOCK 3-7
+/*----------------------------------------------------*/
+
+.content-3-7 .underlined-title {
+	padding-bottom: 0;
+}
+
+.feature-box{
+	background: #FFFFFF;
+	height: 170px;
+	border: 1px solid #CCCCCC;
+	margin-top: 12px;
+	padding: 0 16px;
+}
+
+#how-it-works img{
+	height: 350px;
+}
+
+.testimonial-box{
+	background: #FFFFFF;
+	height: 360px;
+	padding: 90px 20px;
+	border: 1px solid #CCCCCC;
+}
+
+
+/* Features section */
+.icon {
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+.icon span {
+	font-size: 4em;
+	color: #F4511D;
+}
+
+
+/*	CONTENT BLOCK 3-7 MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
+}
