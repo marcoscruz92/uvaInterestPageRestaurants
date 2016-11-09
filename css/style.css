@@ -32,12 +32,12 @@
 }
 
 #header-2 .navbar-toggle .icon-bar {
-	background-color: #999;
+	background-color: #FFF;
 	height: 3px;
 }
 
 #header-2 .navbar-toggle:hover .icon-bar {
-	background-color: #3498DB;
+	background-color: #F4511D;
 }
 
 #header-2 .navbar-fixed-top .navbar-collapse {
@@ -67,11 +67,12 @@
 }
 
 #header-2 .main-nav .nav .nav-item.active a {
-	color: #000000;
+	color: #ffffff;
 }
 
 #header-2 .main-nav .nav .nav-item a:hover {
-	color: #000000;
+	color: #ffffff;
+	background: #F4511D;
 }
 
 #header-2 .main-nav .nav .nav-item a:focus {
@@ -86,7 +87,7 @@
 	border: none;
 	text-transform: none;
 	min-width: 180px;
-	backg round: #3E606F;
+	background: #3E606F;
 }
 
 #header-2 .main-nav .nav .dropdown-menu a {
@@ -110,6 +111,7 @@
 */
 .navbar-default{
 	border: none;
+	transition: background-color 0.5s ease;
 }
 #header-2 .main-nav .nav .open > a,
 #header-2 .main-nav .nav .open > a:hover,
@@ -313,6 +315,7 @@
 	height: 350px;
 }
 
+
 #testimonials h1{
 	margin-bottom: 24px;
 }
@@ -322,6 +325,19 @@
 	min-height: 360px;
 	padding: 90px 20px;
 	border: 1px solid #CCCCCC;
+}
+
+.gravatar {
+	text-align: center;
+}
+
+.gravatar img {
+	padding: 2px;
+	width: 140px;
+	max-width: 70%;
+	height: auto;
+	border-radius: 50%;
+	border: 2px solid #f86029;
 }
 
 .testimonial-box small{
@@ -345,6 +361,10 @@
 
 #join{
 	padding: 4.5em 0;
+}
+
+#join img{
+	height: 250px;
 }
 
 /*	CONTACT 1
@@ -468,12 +488,26 @@
 
 @media only screen and (max-width : 768px) {
 
+	#header-2 .brand-img{
+		margin: 0 auto;
+	}
+
+	#header-2 .navbar-fixed-top .navbar-collapse {
+		margin-top: 15px;
+		background: rgba(0,0,0,0.3);
+	}
+
 	.icon{
 		top: 0;
 	}
 
 	.feature-box{
 		text-align: center;
+	}
+
+	.footer-1-1 .brand-img {
+		position: relative;
+		left: 85px;
 	}
 
 }
