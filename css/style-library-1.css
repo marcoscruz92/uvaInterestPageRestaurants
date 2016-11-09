@@ -18,6 +18,19 @@ Version: 1.0
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,700italic,700,500italic,500,400italic,300italic,300);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700);
 
+@font-face {
+	font-family: 'Montserrat-SemiBold';
+	src: url('../fonts/montserrat/Montserrat-SemiBold.otf');
+	font-weight: normal;
+ 	font-style: normal;
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url('../fonts/montserrat/Montserrat-Light.otf');
+	font-weight: normal;
+ 	font-style: normal;
+}
+
 
 body {
 	color: #333333;
@@ -33,6 +46,8 @@ body {
 .bg-black { background-color: #111111 !important; }
 .bg-white { background-color: #FFFFFF !important; }
 .bg-offwhite { background-color: #FAFAFA !important; }
+.bg-red {background-color: #FF3300 !important;}
+.bg-sienna { background-color: #F4511D !important; }
 .bg-clouds { background-color: #ECF0F1 !important; }
 .bg-silver { background-color: #BDC3C7 !important; }
 .bg-concrete { background-color: #95A5A6 !important; }
@@ -45,7 +60,6 @@ body {
 .bg-aqua { background-color: #16A085 !important; }
 .bg-sunflower { background-color: #F1C40F !important; }
 .bg-orange { background-color: #F39C12 !important; }
-.bg-sienna { background-color: #F4511D !important; }
 .bg-milanored { background-color: #AC1C00 !important; }
 .bg-river { background-color: #3498DB !important; }
 .bg-marina { background-color: #2980B9 !important; }
@@ -118,12 +132,13 @@ body {
 
 /** TYPOGRAPHY **/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
 	line-height: 1.1;
+	letter-spacing: 1.5px;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small {
-	col or: #e5e5e5;
+	color: #e5e5e5;
 }
 
 h1, h2, h3 {
@@ -144,9 +159,10 @@ h5, .h5 { font-size: 18px; }
 h6, .h6 { font-size: 16px; }
 
 p {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
+	letter-spacing: 1.5px;
 	margin: 15px 0;
 	color: #515157;
 }
@@ -167,7 +183,12 @@ em { color: #ff6600; }
 
 /* LINKS */
 
-a { color: #1abc9c; }
+a {
+	color: #1abc9c;
+	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
 
 a:hover {
 	color: #16a085;
@@ -193,8 +214,9 @@ ul {
 
 ul li,
 ol li {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
 	font-size: 14px;
+	letter-spacing: 1.5px;
 	color: #515157;
 	margin-bottom: 5px;
 }
@@ -250,7 +272,8 @@ img {
     color: #FFF;
     padding: 10px 20px;
 	margin: 15px 0;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5px;
     font-size: 14px;
     font-weight: 600;
 	letter-spacing: 0.1em;
@@ -369,7 +392,8 @@ p .btn {
 	color: #FFF;
     padding: 12px 20px;
 	margin: 15px 0;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
+	letter-spacing: 1.5px;
     font-weight: 600;
     font-size: 14px;
     text-align: center;
@@ -399,7 +423,7 @@ p .btn {
 
 .btn-outline-xl {
 	padding: 18px 30px;
-	font-size: 24px;
+	font-size: 12px;
 
 }
 
@@ -539,7 +563,7 @@ fieldset legend {
 .form-control {
 	border: 2px solid #ecf0f1;
 	color: #34495e;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.467;
 	padding: 8px 12px;
@@ -785,7 +809,7 @@ fieldset[disabled] .form-control {
 	border-color: inherit !important;
 }
 .panel-title {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
     font-size: 15px;
     font-weight: 700;
 	text-transform: uppercase;
@@ -911,7 +935,7 @@ fieldset[disabled] .form-control {
 /* PAGINATION */
 
 .pagination li a {
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat-Light", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	color: #16A085;
 	background: none;
@@ -968,7 +992,7 @@ fieldset[disabled] .form-control {
 	border: 1px solid #16A085;
 	border-radius: 0;
 	color: #16A085;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-family: "Montserrat-SemiBold", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 	min-width: 160px;
 }
