@@ -10,7 +10,7 @@
 #header-2 .brand-img {
 	float: none;
 	position: relative;
-	left: 100px;
+	/*left: 100px;*/
 	top: 10px;
 	/*margin-left: 30px auto;*/
 	text-align: center;
@@ -296,8 +296,8 @@
 
 .feature-box{
 	background: #FFFFFF;
-	height: 170px;
-	border: 1px solid #CCCCCC;
+	/*height: 170px;*/
+	/*border: 1px solid #CCCCCC;*/
 	margin-top: 12px;
 	padding: 0 16px;
 }

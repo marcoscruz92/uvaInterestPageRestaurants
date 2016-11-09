@@ -46,7 +46,8 @@ body {
 .bg-black { background-color: #111111 !important; }
 .bg-white { background-color: #FFFFFF !important; }
 .bg-offwhite { background-color: #FAFAFA !important; }
-.bg-red {background-color: #FF3300 !important;}
+/*.bg-red {background-color: #FF3300 !important;}*/
+.bg-red {background-color: transparent !important;}
 .bg-sienna { background-color: #F4511D !important; }
 .bg-clouds { background-color: #ECF0F1 !important; }
 .bg-silver { background-color: #BDC3C7 !important; }
@@ -333,7 +334,9 @@ p .btn {
 }
 
 .btn.btn-primary:hover {
-	background: #16a085;
+	/*background: #16a085;*/
+	background: white;
+	color:black
 }
 
 /* Button WARNING */
@@ -1065,4 +1068,11 @@ fieldset[disabled] .form-control {
 
 
 
+}
+
+
+/*OVERRIDES*/
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: transparent;;
 }
