@@ -108,6 +108,9 @@
 	background-color: #f86029;
 }
 */
+.navbar-default{
+	border: none;
+}
 #header-2 .main-nav .nav .open > a,
 #header-2 .main-nav .nav .open > a:hover,
 #header-2 .main-nav .nav .open > a:focus {
@@ -211,9 +214,9 @@
 	vertical-align: middle;
 	position: relative;
 	margin: 0 auto 50px;
-	-webkit-transition: box-shadow 0.2s;
+	/*-webkit-transition: box-shadow 0.2s;
 	-moz-transition: box-shadow 0.2s;
-	transition: box-shadow 0.2s;
+	transition: box-shadow 0.2s;*/
 }
 
 .content-2-2 .icon-outline:hover {
@@ -221,6 +224,10 @@
 	color: #fff;
 }
 
+.content-2-2 .icon-outline img{
+	position: relative;
+	top: 25px;
+}
 .content-2-2 .icon-outline span {
 	line-height: 150px;
 	color: #F4511D;
@@ -295,7 +302,7 @@
 }
 
 .feature-box{
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 	/*height: 170px;*/
 	/*border: 1px solid #CCCCCC;*/
 	margin-top: 12px;
@@ -306,11 +313,19 @@
 	height: 350px;
 }
 
+#testimonials h1{
+	margin-bottom: 24px;
+}
+
 .testimonial-box{
 	background: #FFFFFF;
-	height: 360px;
+	min-height: 360px;
 	padding: 90px 20px;
 	border: 1px solid #CCCCCC;
+}
+
+.testimonial-box small{
+	letter-spacing: 1.5px;
 }
 
 
@@ -324,6 +339,12 @@
 .icon span {
 	font-size: 4em;
 	color: #F4511D;
+}
+
+/* Join section */
+
+#join{
+	padding: 4.5em 0;
 }
 
 /*	CONTACT 1
@@ -437,4 +458,36 @@
 .footer-1-1 li:first-child {
 	border-top: none;
 	padding-top: 1px;
+}
+
+
+/* MEDIA QUERIES
+/*----------------------------------------------------*/
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 768px) {
+
+	.icon{
+		top: 0;
+	}
+
+	.feature-box{
+		text-align: center;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+
+
 }

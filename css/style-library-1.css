@@ -42,12 +42,11 @@ body {
 }
 
 /* BACKGROUND COLORS */
-
+.bg-transparent {background-color: transparent !important;}
 .bg-black { background-color: #111111 !important; }
 .bg-white { background-color: #FFFFFF !important; }
 .bg-offwhite { background-color: #FAFAFA !important; }
-/*.bg-red {background-color: #FF3300 !important;}*/
-.bg-red {background-color: transparent !important;}
+.bg-red {background-color: #FF3300 !important;}
 .bg-sienna { background-color: #F4511D !important; }
 .bg-clouds { background-color: #ECF0F1 !important; }
 .bg-silver { background-color: #BDC3C7 !important; }
@@ -185,14 +184,14 @@ em { color: #ff6600; }
 /* LINKS */
 
 a {
-	color: #1abc9c;
+	color: #ffffff;
 	font-family: 'Monserrat-SemiBold', Helvetica, Arial, sans-serif;
 	letter-spacing: 1.5px;
 	text-transform: uppercase;
 }
 
 a:hover {
-	color: #16a085;
+	color: grey;
 	text-decoration: none;
 	-moz-transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -318,9 +317,9 @@ p .btn {
 
 /* Button DEFAULT */
 .btn.btn-default {
-	background: #ecf0f1;
+	background: #ffffff;
 	box-shadow: 0 2px #bdc3c7;
-	color: #999;
+	color: #000000;
 }
 
 .btn.btn-default:hover {
@@ -1074,5 +1073,5 @@ fieldset[disabled] .form-control {
 /*OVERRIDES*/
 .navbar-default {
     background-color: #f8f8f8;
-    border-color: transparent;;
+    /*border-color: transparent;;*/
 }
