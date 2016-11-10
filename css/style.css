@@ -456,7 +456,7 @@
 }
 
 .footer-1-1 .brand-img {
-	width: 200px;
+	width: 130px;
 	margin-bottom: 30px;
 }
 
@@ -472,6 +472,7 @@
 
 .footer-1-1 ul li {
 	border-top: 1px solid #bdc3c7;
+	font-size: 10px;
 	line-height: 19px;
 	padding: 6px 0;
 }
@@ -507,8 +508,7 @@
 	}
 
 	.footer-1-1 .brand-img {
-		position: relative;
-		left: 85px;
+		margin: 0 auto;
 	}
 
 }
