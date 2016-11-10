@@ -1,9 +1,22 @@
+// Init functions
 navScroll();
 smoothScroll();
 imgHover();
+carousel();
+
+/* Carousel for testimonials */
+function carousel() {
+  $("#testimonials-wrapper").owlCarousel({
+      navigation : false, // Show next and prev buttons
+      slideSpeed : 300,
+      autoPlay: true,
+      paginationSpeed: 400,
+      singleItem:true
+  });
+}
 
 /* ****** Scroll Magic script to change navbar background color depending on window position ***** */
-function navScroll(){
+function navScroll() {
   // init controller
   height = window.innerHeight;
   var controller = new ScrollMagic.Controller();
@@ -15,7 +28,7 @@ function navScroll(){
 }
 
 /* ****** Smooth Scrolling script to navigate through website from nav links ***** */
-function smoothScroll(){
+function smoothScroll() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
