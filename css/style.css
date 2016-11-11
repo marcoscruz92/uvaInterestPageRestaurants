@@ -311,11 +311,18 @@
 	padding: 0 16px;
 }
 
+
 .how-image {
 	max-height: 400px;
 	margin-top: 24px;
 	margin-bottom: 24px;
 }
+
+.how-box h4 {
+	white-space: nowrap;
+  overflow: hidden;
+}
+
 
 #testimonials h1 {
 	margin-bottom: 24px;
