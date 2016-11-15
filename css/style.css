@@ -173,7 +173,7 @@
 
 .content-1-6 .client-row img {
 	max-width: 140px;
-	opacity: 0.3;
+	opacity: 0.5;
 	-webkit-transition: all .3s ease;
 	-moz-transition: all .3s ease;
 	transition: all .3s ease;
@@ -199,6 +199,18 @@
 
 .content-1-6 .row-wrapper .col-md-3:last-child {
 	border-right: none;
+}
+
+.client-wrapper	{
+	position: relative;
+	min-height: 140px;
+}
+
+.client-wrapper img {
+	position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
 }
 
 /*	CONTENT BLOCK 2-2
